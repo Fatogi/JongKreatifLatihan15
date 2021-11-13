@@ -91,7 +91,7 @@ if ($sessionStatus == true) {
 
                         <?php if (!is_null($foto) && !empty($foto)) : ?>
                             <div class="form-group mb-2">
-                                <img src="<?= $foto ?>" class="preview" />
+                                <img src="<?= $foto ?>" class="preview" height="200" width="200" alt="" />
                                 <a href="hapus_foto.php?nis=<?=$nis?>">Hapus Foto</a>
                             </div>
                         <?php endif; ?>
